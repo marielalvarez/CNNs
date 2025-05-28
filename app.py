@@ -6,7 +6,6 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input as mn_pr
 from tensorflow.keras.applications.resnet50   import preprocess_input as rs_pre
 import pandas as pd 
 
-# Descargar modelo grande si no está
 def download_large_model():
     import gdown
     file_id = "1LcjEbqOLoL0I0sfa3SqMlVbj4At2NbTW"  
